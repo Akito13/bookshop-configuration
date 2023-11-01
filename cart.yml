@@ -1,0 +1,22 @@
+server:
+  port: 0
+
+spring:
+  data:
+    redis:
+      host: "localhost"
+      port: 6379
+
+info:
+  name: "cart-service"
+  description: "Service quản lý giỏ hàng cho Bookshop"
+  version: "1.0.0"
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
