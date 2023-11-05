@@ -14,9 +14,3 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8070/eureka/
-
-spring:
-  datasource:
-    url: "jdbc:postgresql://localhost:5432/accountdb?reWriteBatchedInserts=true"
-    username: postgres
-    password: ${POSTGRES_PASS}

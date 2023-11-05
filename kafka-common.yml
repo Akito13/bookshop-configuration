@@ -1,3 +1,4 @@
 constant:
   kafka:
     account-registration: "AccountRegistration"
+    account-confirm-success: "AccountConfirmSuccess"
