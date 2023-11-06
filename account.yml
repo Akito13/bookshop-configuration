@@ -8,12 +8,3 @@ info:
   name: "account-service"
   description: "Service quản lý tài khoản cho Bookshop"
   version: "1.0.0"
-
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8070/eureka/
