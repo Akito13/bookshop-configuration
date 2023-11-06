@@ -1,6 +1,12 @@
 server:
   port: 0
 
+spring:
+    datasource:
+      url: "jdbc:postgresql://localhost:5432/accountdb?reWriteBatchedInserts=true"
+      username: postgres
+      password: ${POSTGRES_PASS}
+
 info:
   name: "account-service"
   description: "Service quản lý tài khoản cho Bookshop"
