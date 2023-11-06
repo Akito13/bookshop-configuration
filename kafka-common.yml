@@ -1,3 +1,30 @@
+spring:
+  kafka:
+    bootstrap-servers: ${SR_KAFKA_SERVERS}
+    jaas:
+      enabled: true
+      options:
+        config: ${SR_KAFKA_JAAS_CONFIG}
+    properties:
+      sasl:
+        mechanism: PLAIN
+        jaas:
+          config: ${SR_KAFKA_JAAS_CONFIG}
+      security:
+        protocol: SASL_SSL
+      session:
+        timeout:
+          ms: 45000
+      basic:
+        auth:
+          user:
+            info: ${SR_KAFKA_SECRET}
+          credentials:
+            source: USER_INFO
+      schema:
+        registry:
+          url: ${SR_KAFKA_SCHEMA_URL}
+
 constant:
   kafka:
     account-registration: "AccountRegistration"

@@ -1,10 +1,7 @@
-server:
-  port: 0
-
 spring:
     datasource:
-      url: "jdbc:postgresql://localhost:5432/accountdb?reWriteBatchedInserts=true"
-      username: postgres
+      url: ${POSTGRES_URL}
+      username: ${POSTGRES_USERNAME}
       password: ${POSTGRES_PASS}
 
 info:
