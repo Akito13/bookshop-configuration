@@ -3,15 +3,15 @@ server:
 
 spring:
   mail:
-    host: "smtp.gmail.com"
-    port: 587
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-          ssl:
-            protocols: "TLSv1.2"
     username: ${EMAIL_USERNAME}
-    password: ${EMAIL_PASSWORD}
+    password: ${EMAIL_PASSWORD}  
+    # host: "smtp.gmail.com"
+    # port: 587
+    # properties:
+    #   mail:
+    #     smtp:
+    #       auth: true
+    #       starttls:
+    #         enable: true
+    #       ssl:
+    #         protocols: "TLSv1.2"
