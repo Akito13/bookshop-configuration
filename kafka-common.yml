@@ -32,3 +32,6 @@ constant:
   kafka:
     account-registration: "AccountRegistration"
     account-confirm-success: "AccountConfirmSuccess"
+    backoff:
+      interval: 1000
+      max-attempts: 3
