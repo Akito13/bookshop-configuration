@@ -33,5 +33,5 @@ constant:
     account-registration: "AccountRegistration"
     account-confirm-success: "AccountConfirmSuccess"
     backoff:
-      interval: 1000L
-      max-attempts: 3L
+      interval: 1000
+      max-attempts: 3
