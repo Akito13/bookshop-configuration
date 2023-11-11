@@ -1,0 +1,5 @@
+constant:
+  security:
+    JWT_KEY: ${JWT_KEY}
+    JWT_HEADER: "JwtToken"
+    JWT_EXP: 30000
