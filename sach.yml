@@ -3,6 +3,12 @@ info:
   description: "Service quản lý sách cho Bookshop"
   version: "1.0.0"
 
+aws:
+  credentials:
+    s3:
+      access-key: ${AWS_S3_ACCESS_KEY}
+      secret-key: ${AWS_S3_SECRET_KEY}
+
 spring:
   data:
     mongodb:
