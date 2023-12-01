@@ -1,8 +1,21 @@
 spring:
-    datasource:
-      url: ${POSTGRES_URL}
-      username: ${POSTGRES_USERNAME}
-      password: ${POSTGRES_PASS}
+  datasource:
+    url: ${POSTGRES_URL}
+    username: ${POSTGRES_USERNAME}
+    password: ${POSTGRES_PASS}
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: "*"
+            use:
+              type:
+                headers: false
 
 info:
   name: "account-service"
