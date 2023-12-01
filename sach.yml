@@ -17,7 +17,7 @@ spring:
       uri: "{cipher}40563335e361fb32c05d35bc8b3af1e8c5a2075aa3570cbdf501a28c7b6a315d264b1f08f5bbac41bb00b714ecd2bec89d6992cf1ad543dfe5fd7fcbd37a62002e72f80fd3546a4b9bca51be6651dcbd4d07eba3c40ab70f55d7ce06b9e172603dea30383d9e3ff96244d0a765cb1b40"
   kafka:
     consumer:
-      key-deserializer: org.apache.kafka.common.serialization.StringSerializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: com.bookshop.sachservice.event.OrderPlacementValueDeserializer
       properties:
         spring:
