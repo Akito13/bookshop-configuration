@@ -24,6 +24,6 @@ spring:
           json:
             trusted:
               packages: "*"
-            use:
-              type:
-                headers: false
+            # use:
+            #   type:
+            #     headers: false
