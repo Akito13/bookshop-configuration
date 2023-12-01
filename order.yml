@@ -6,9 +6,9 @@ spring:
   jpa:
     show-sql: true
   kafka:
-    producer:
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      # value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    # producer:
+    #   key-serializer: org.apache.kafka.common.serialization.StringSerializer
+    # value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
     consumer:
       properties:
         spring:
