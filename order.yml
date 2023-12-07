@@ -18,3 +18,7 @@ spring:
             use:
               type:
                 headers: false
+
+payment:
+  stripe:
+    secret-key: ${STRIPE_SECRET_KEY}
