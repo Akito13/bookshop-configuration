@@ -33,6 +33,7 @@ constant:
     account-registration: "AccountRegistration"
     account-confirm-success: "AccountConfirmSuccess"
     order-placed: "OrderPlacement"
+    account-password-change: "AccountPasswordChange"
     backoff:
       interval: 1000
       max-attempts: 3
