@@ -34,6 +34,7 @@ constant:
     account-confirm-success: "AccountConfirmSuccess"
     order-placed: "OrderPlacement"
     account-password-change: "AccountPasswordChange"
+    account-password-change-confirmed: "AccountPasswordChangeConfirmed"
     backoff:
       interval: 1000
       max-attempts: 3
