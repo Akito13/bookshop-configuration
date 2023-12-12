@@ -8,7 +8,8 @@ spring:
   kafka:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: com.example.bookshop.orderservice.event.OrderPlacementValueSerializer
+      value-serializer: org.apache.kafka.common.serialization.BytesSerializer
+      # value-serializer: com.example.bookshop.orderservice.event.OrderPlacementValueSerializer
     consumer:
       properties:
         spring:
