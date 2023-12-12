@@ -33,6 +33,7 @@ constant:
     account-registration: "AccountRegistration"
     account-confirm-success: "AccountConfirmSuccess"
     order-placed: "OrderPlacement"
+    order-status-changed: "OrderStatusChange"
     account-password-change: "AccountPasswordChange"
     account-password-change-confirmed: "AccountPasswordChangeConfirmed"
     backoff:
