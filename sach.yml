@@ -6,10 +6,10 @@ info:
 aws:
   credentials:
     s3:
-      access-key: ${AWS_S3_ACCESS_KEY}
-      secret-key: ${AWS_S3_SECRET_KEY}
-      bucket-name: ${AWS_S3_BUCKET_NAME}
-      region: ${AWS_S3_REGION}
+      access-key: "{cipher}b80ba1fc3fb6ebcc84101fd76e12a9277266044ada6fc04aaef64ba1820cde23ae110d0eeae9d2e1eba13576efae3be3"
+      secret-key: "{cipher}f8bc3a9ab996663308fed5e737246b447cc528551bc3acd79650e77c9c10825f5acf1124bb336c2526717e084850dffe3d3bfa5c09edc9a6d654b57d0117ac78"
+      bucket-name: "{cipher}698c46ae332e4b9179c5d11838b0cfe13b1dac26acd71c10b5a8d7daa883fe5549890499730fa19422d829b8f7a3f282"
+      region: "{cipher}d78bd119943915b1e2265dfcc802a8801e54ded8b91bff7e29547c069b420a79"
 
 spring:
   data:

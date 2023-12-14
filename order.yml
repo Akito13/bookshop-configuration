@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
-    url: ${DB_URL}
+    username: "{cipher}5f0123bf29b1ad163754440a92c69ed2fc6092027d7d417063203305b55ae765"
+    password: "{cipher}0865745366bf1577b1bed11405f93dea2ef28c7c09e44cbec6e0be05ba1d59fb"
+    url: "{cipher}d1ac15f7bb59a942fb77182e5bb27dfc953c4a5e6df0b27e47a23cce8701c72c0d291b770a7bbe8493709dd55a901b69a106e56010fb02c126b312fd3d4a0c55718439f898a7598c82142e60a9e7b51db87c2c488ed5fddc289ebaf3c2401dd8d6ed49f25c2725ce85a9b45ee1e121297d33bb3238f3084a478ebb99b8bda085"
   jpa:
     show-sql: true
   kafka:
@@ -22,4 +22,4 @@ spring:
 
 payment:
   stripe:
-    secret-key: ${STRIPE_SECRET_KEY}
+    secret-key: "{cipher}03bd11c0ded5081ccf8a3c2d5fc8238a2f8b0dccbed30cf7c69726bdfb9f4570c9459818686e658fc96e72142a16f150524d7b5634634c46180b0733b524547dbd0b182cd23c170b3244291a35ca4cf880d191bf3fcca26ae518e6a3fc9247116a43c78f209bb63b3ef3864222a5defe45505eac26895eea9dafcecd5dddcc0d"

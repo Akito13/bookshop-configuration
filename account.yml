@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${POSTGRES_URL}
-    username: ${POSTGRES_USERNAME}
-    password: ${POSTGRES_PASS}
+    url: "{cipher}6f8b4a92a89c7bed5f41ed88cddb22bdba6c1c61c0b442d76ec003dc70f939f453559fecaf3b2370d4cea0f53d50f10c6081e670d355227e96b65b7d2edb25b674ef798467ed11af2a46bef5a94cbff90d3eb96d14f3bb50dae7a2bae87823b4"
+    username: "{cipher}7a3fc6ed472be5a633239a1cabacb1196ff5624a1348fb4eacec07bbbe74a419"
+    password: "{cipher}41f5cc1ba827087f394bd56a76744fbd6df78e9b05800aff8ce83acae2247bcd"
   kafka:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer

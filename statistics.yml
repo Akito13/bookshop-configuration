@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
-    url: ${DB_URL}
+    username: "{cipher}c81dd3e99098b6be6a53607adb69a1d536827ca71284de8f522ac1cf30e4dce1"
+    password: "{cipher}f8416f5bdc743fa910b2a2ffe9713c14f827fadc60ed2139a366876958a40766"
+    url: "{cipher}63b851c83babfef1149fae7e27a2a856e970bf6f57b26b4a69c7bf7c2e4a36b13ce287b4d7be49d46782e3ec6ed57fadc7657fa9212dd5d1f67112c3c620c38f4da3580f9be009c4dd2c3fee08a177f85d1f0cc5a095b3cfd1bfba5b18b0a3eab1497ebec9b6911ca87ac9ce94f30b61"
   jpa:
     show-sql: true
   kafka:
