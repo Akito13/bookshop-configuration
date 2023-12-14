@@ -3,16 +3,16 @@ spring:
     consumer:
       group-id: ${spring.application.name}
       auto-offset-reset: earliest
-    bootstrap-servers: ${SR_KAFKA_SERVERS}
+    bootstrap-servers: "{cipher}c88bf5065b51b9246530d50973461cc5c94d69a58f0e8a0803220048c9914d35131210245e04dea2674e1c96172b11a0c8e4d0f926851e7beb44eacd5beebd0b379c2e6c9d21345d65a2833b67c05887"
     jaas:
       enabled: true
       options:
-        config: ${SR_KAFKA_JAAS_CONFIG}
+        config: "{cipher}f490de12ea6e03414548c2dcab479a37bf6791795cc3d9bc0c8a304cc7c132336116b147959cf846698ab59ab746a5534ba8f336a24a99b40bdaa893c1826c52c66b2cd3575e3d9da335c69f050663b91b95a0637c368e13b496effcbcf1d980c7df85c69178fce24a8911bc9cd64890f768b1f95662ba867b13020ff48eca591bfd3edea30d962397dd503d6c64ac3dd4a77bf1d9816a37295ed59f746d7c0cabcd74aaa619dfdd35568e30429d1c46bc4f4706a658622dbc8b2766873fd5df"
     properties:
       sasl:
         mechanism: PLAIN
         jaas:
-          config: ${SR_KAFKA_JAAS_CONFIG}
+          config: "{cipher}f490de12ea6e03414548c2dcab479a37bf6791795cc3d9bc0c8a304cc7c132336116b147959cf846698ab59ab746a5534ba8f336a24a99b40bdaa893c1826c52c66b2cd3575e3d9da335c69f050663b91b95a0637c368e13b496effcbcf1d980c7df85c69178fce24a8911bc9cd64890f768b1f95662ba867b13020ff48eca591bfd3edea30d962397dd503d6c64ac3dd4a77bf1d9816a37295ed59f746d7c0cabcd74aaa619dfdd35568e30429d1c46bc4f4706a658622dbc8b2766873fd5df"
       security:
         protocol: SASL_SSL
       session:
@@ -21,12 +21,12 @@ spring:
       basic:
         auth:
           user:
-            info: ${SR_KAFKA_SECRET}
+            info: "{cipher}a4faeeae3a9209c3908cd2a50dc285f3fe959dd0063da2fd54854c9055036ad59be0600ebccc11af271e753813abc3479116edcdcaa7aa02d733d877621c152da204f41c98b265a68739c981b7316ba7863f76019ccb83d12bf17e5ebda44ef08826d6da826b15db1a493a5e70bdb939"
           credentials:
             source: USER_INFO
       schema:
         registry:
-          url: ${SR_KAFKA_SCHEMA_URL}
+          url: "{cipher}98c5b78acd9886ab5ea7fdc0f285695a7a3b34649bbe3d3c859e012064b50d5627c05c64cb5f597d24375e7e5cc802e0d3c6986315aacb4c4a0abb766c99f0507e1479acd6b424eab6b37fbd0709e39e"
 
 constant:
   kafka:
